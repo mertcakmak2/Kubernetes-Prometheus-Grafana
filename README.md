@@ -18,6 +18,7 @@
 ```bash
   sudo apt-get install helm
 ```
+![image](https://user-images.githubusercontent.com/21373505/146519688-abec4199-9ab4-446b-bae4-a3949ed06153.png)
 
 ## Prometheus Kurulumu
 
@@ -36,6 +37,9 @@
 ```bash
   helm install k8spromethuesstack --namespace monitoring prometheus-community/kube-prometheus-stack
 ```
+
+![image](https://user-images.githubusercontent.com/21373505/146519705-08a81569-954c-45ea-8187-e53bef83dc92.png)
+![image](https://user-images.githubusercontent.com/21373505/146519921-d9bec0fb-8c61-43b1-97a4-80a89848730d.png)
 
 ## Grafana Ui İçin NodePort Verme İşlemi
 
