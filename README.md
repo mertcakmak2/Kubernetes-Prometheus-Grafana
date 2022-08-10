@@ -51,4 +51,6 @@ http://167.172.105.147:31513 ⇒ Grafana UI
 
 - kubectl patch svc k8spromethuesstack-kube-pr-prometheus -p '{"spec": {"type": "NodePort"}}' -n monitoring
 
+- kubectl get secret --namespace monitoring prometheus-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+
 http://167.172.105.147:30385 ⇒ Prometheus UI
